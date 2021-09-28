@@ -35,8 +35,9 @@ textarea,
 select,
 button,
 table {
-    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕",
-        helvetica, "Apple SD Gothic Neo", sans-serif;
+    /*    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo", sans-serif;*/
+    font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "돋움",
+        Dotum, Helvetica, "Apple SD Gothic Neo", Sans-serif;
     font-size: 12px;
     -webkit-font-smoothing: subpixel-antialiased;
 }

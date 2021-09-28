@@ -272,3 +272,256 @@ body {
 .summary_area .summary_menu .set_list .list + .list {
     margin-top: 3px;
 }
+
+.list_type .banner_item {
+    position: relative;
+    overflow: hidden;
+    height: 62px;
+}
+
+.list_type .mask {
+    border-color: #000;
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+}
+
+.list_type .banner_item .banner_tit {
+    position: absolute;
+    left: 0;
+    top: 18px;
+    width: 100%;
+    height: 27px;
+    text-align: center;
+}
+
+.list_type .tag_bg {
+    display: inline-block;
+    position: relative;
+}
+
+.list_type .banner_item .tag_bg {
+    height: 27px;
+    line-height: 27px;
+    padding: 0 10px;
+}
+
+.list_type .banner_item .tag_bg .mask {
+    border-color: #fff;
+    background-color: #000;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+.list_type .tag_bg em {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    font-size: 14px;
+    color: #fff;
+}
+
+.list_type .banner_item .tag_bg em {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 240px;
+}
+
+.tit_area {
+    position: relative;
+    z-index: 2;
+    height: 49px;
+    padding-top: 13px;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.tit_area h3 {
+    height: 49px;
+    border-bottom: 1px solid #e7e7e7;
+    font-size: 14px;
+    color: #212121;
+    text-align: center;
+}
+
+.tit_area em {
+    display: inline-block;
+    overflow: hidden;
+    height: 18px;
+    vertical-align: top;
+}
+
+.tit_area strong {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    margin-top: 3px;
+    padding: 0 15px;
+}
+
+.list_type.basic {
+    width: 268px;
+    height: 166px;
+    padding: 11px 0 1px;
+}
+
+.list_type ul {
+    zoom: 1;
+}
+
+.list_type ul:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.list_type li {
+    float: left;
+    position: relative;
+}
+
+.list_type.basic li {
+    width: 130px;
+    margin-left: 8px;
+}
+
+.list_type.basic li:first-child {
+    margin-left: 0;
+}
+
+.list_type .link_a {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.list_type .img_area {
+    display: block;
+    overflow: hidden;
+}
+
+.list_type.basic .img_area {
+    position: relative;
+    width: 130px;
+    height: 90px;
+    margin-bottom: 7px;
+    background-color: #e8c3ab;
+}
+
+.list_type.basic li:first-child .img_area {
+    background-color: #e8abab;
+}
+
+.list_type .txt {
+    display: block;
+    overflow: hidden;
+    height: 34px;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    word-break: break-all;
+}
+
+.list_type.basic .deadline {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    margin-top: 2px;
+    color: #999;
+}
+
+.list_type.item ul {
+    height: 177px;
+    padding-left: 1px;
+}
+
+.list_type.item li {
+    width: 100px;
+    height: 177px;
+    border-left: 1px solid #f0f0f0;
+    text-align: center;
+}
+
+.list_type.item li:first-child {
+    border-left: 0;
+}
+
+.list_type .link_a {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.list_type .img_area {
+    display: block;
+    overflow: hidden;
+}
+
+.list_type .txt {
+    display: block;
+    overflow: hidden;
+    height: 34px;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    word-break: break-all;
+}
+
+.list_type.item .txt {
+    margin-top: 7px;
+    margin-bottom: 3px;
+    padding: 0 5px;
+}
+
+.list_type.item li em {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    color: #999;
+}
+
+.list_type li {
+    float: left;
+    position: relative;
+}
+
+.list_type.event li {
+    width: 101px;
+    height: 240px;
+}
+
+.list_type.event li.piece {
+    width: 102px;
+}
+
+.list_type .link_a {
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.list_type.event li .link_a {
+    height: 120px;
+}
+
+.list_type.event .img_area {
+    width: 100%;
+    height: 100%;
+}
+
+@media all and (min-width: 1365px) {
+    .list_type.item li {
+        width: 101px;
+    }
+
+    .list_type.item li:first-child {
+        width: 102px;
+    }
+
+    .list_type.event li {
+        width: 103px;
+    }
+}
