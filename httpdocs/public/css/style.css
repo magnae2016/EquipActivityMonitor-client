@@ -18,7 +18,8 @@ body {
     zoom: 1;
     position: relative;
     z-index: 20;
-    background: linear-gradient(to right, #86aaff, #70bc4c, #ffbe00, #f46e85);
+    /*    background: linear-gradient(to right, #86aaff, #70bc4c, #ffbe00, #f46e85);*/
+    background: #00ab33 url(../images/gnb/bg_gheader_v2.jpeg) 100% 0;
 }
 
 .co_header {
@@ -57,7 +58,7 @@ body {
     height: 1px;
     z-index: 1;
     background-color: #fff;
-    opacity: .1;
+    opacity: 0.1;
     filter: alpha(opacity=10);
 }
 
@@ -70,7 +71,7 @@ body {
     height: 1px;
     z-index: 1;
     background-color: #000;
-    opacity: .1;
+    opacity: 0.1;
     filter: alpha(opacity=10);
 }
 
@@ -167,9 +168,9 @@ body {
     padding-bottom: 1px;
 }
 
-@media all and (min-width:1365px) {
+@media all and (min-width: 1365px) {
     .co_header_inner {
-        width: 1280px
+        width: 1280px;
     }
 
     .content_home {
@@ -208,4 +209,66 @@ body {
         width: 308px;
         height: 496px;
     }
+}
+
+.summary_area .summary_menu {
+    float: left;
+    position: relative;
+    width: 124px;
+    height: 100%;
+    background-color: #333949;
+}
+
+.summary_area .summary_menu .title {
+    position: relative;
+    padding: 14px 0 14px 13px;
+    border-bottom: 1px solid #2b313f;
+    font-size: 0;
+    line-height: 0;
+}
+
+.summary_area .summary_menu .title::before {
+    overflow: hidden;
+    width: 13px;
+    height: 12px;
+    background-position: -126px -50px;
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 8px;
+    content: "";
+}
+
+.summary_area .summary_menu .set_list {
+    overflow: hidden;
+    padding-top: 6px;
+}
+
+.summary_area .summary_menu .set_list .button {
+    overflow: hidden;
+    width: 100%;
+    padding: 7px 8px;
+    border: 1px solid #333949;
+    background-color: transparent;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 15px;
+    letter-spacing: -0.5px;
+    white-space: nowrap;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.46);
+    cursor: pointer;
+    -webkit-appearance: none;
+    vertical-align: top;
+}
+
+.summary_area .summary_menu .set_list .button .icon {
+    float: left;
+    overflow: hidden;
+    width: 18px;
+    height: 18px;
+    margin-right: 9px;
+}
+
+.summary_area .summary_menu .set_list .list + .list {
+    margin-top: 3px;
 }

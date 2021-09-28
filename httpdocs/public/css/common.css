@@ -26,7 +26,7 @@ button,
 select {
     margin: 0;
     padding: 0;
-    -webkit-text-size-adjust: none
+    -webkit-text-size-adjust: none;
 }
 
 body,
@@ -35,39 +35,40 @@ textarea,
 select,
 button,
 table {
-    font-family: '나눔고딕', NanumGothic, '맑은고딕', MalgunGothic, '돋움', Dotum, Helvetica, 'Apple SD Gothic Neo', Sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Malgun Gothic", "맑은 고딕",
+        helvetica, "Apple SD Gothic Neo", sans-serif;
     font-size: 12px;
-    -webkit-font-smoothing: subpixel-antialiased
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 img,
 fieldset {
-    border: 0
+    border: 0;
 }
 
 ul,
 ol {
-    list-style: none
+    list-style: none;
 }
 
 em,
 address {
-    font-style: normal
+    font-style: normal;
 }
 
 input,
 select {
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:hover,
 a:active,
 a:focus {
-    text-decoration: none
+    text-decoration: none;
 }
 
 hr,
@@ -78,7 +79,7 @@ legend,
     width: 1px;
     height: 1px;
     clip: rect(0, 0, 0, 0);
-    margin: -1px
+    margin: -1px;
 }
 
 caption {
@@ -86,5 +87,5 @@ caption {
     width: 1px;
     height: 1px;
     clip: rect(0, 0, 0, 0);
-    margin: -1px
+    margin: -1px;
 }
