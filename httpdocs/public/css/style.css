@@ -52,15 +52,13 @@ body {
 .co_tit {
     overflow: hidden;
     float: left;
-    width: 82px;
     padding-top: 19px;
+    padding-right: 13px;
 }
 
-.co_tit a,
 .co_logo a,
 .co_srh_auto .co_more,
-.co_srh_btn,
-.co_site a.co_naver {
+.co_srh_btn {
     background-image: url(../images/home/sp_global_v37.png);
     -webkit-background-size: 432px 416px;
     background-size: 432px 416px;
@@ -70,8 +68,6 @@ body {
 }
 
 .co_tit a {
-    background-position: -180px -30px;
-    width: 68px;
     height: 28px;
     display: block;
 }
@@ -170,8 +166,7 @@ body {
 }
 
 .co_site a.co_naver {
-    background-position: 0 -328px;
-    width: 48px;
+    filter: brightness(0) invert(1);
     height: 13px;
     float: left;
 }
@@ -444,7 +439,7 @@ body {
     height: 11px;
     vertical-align: top;
     display: inline-block;
-    content: '2021/09/28';
+    content: "2021/09/28";
 }
 
 .summary_area .summary_menu .set_list {
@@ -500,7 +495,6 @@ body {
     border-top: 1px solid #e7e7e7;
 }
 
-
 .summary_area .summary_info h3 em {
     display: inline-block;
     line-height: 9999px;
@@ -546,43 +540,43 @@ body {
 }
 
 .summary_tag .img_summary.num0 {
-    background-position: -260px 0
+    background-position: -260px 0;
 }
 
 .summary_tag .img_summary.num1 {
-    background-position: -260px -40px
+    background-position: -260px -40px;
 }
 
 .summary_tag .img_summary.num2 {
-    background-position: -260px -80px
+    background-position: -260px -80px;
 }
 
 .summary_tag .img_summary.num3 {
-    background-position: -260px -120px
+    background-position: -260px -120px;
 }
 
 .summary_tag .img_summary.num4 {
-    background-position: -260px -160px
+    background-position: -260px -160px;
 }
 
 .summary_tag .img_summary.num5 {
-    background-position: -260px -200px
+    background-position: -260px -200px;
 }
 
 .summary_tag .img_summary.num6 {
-    background-position: -260px -240px
+    background-position: -260px -240px;
 }
 
 .summary_tag .img_summary.num7 {
-    background-position: -260px -280px
+    background-position: -260px -280px;
 }
 
 .summary_tag .img_summary.num8 {
-    background-position: -260px -320px
+    background-position: -260px -320px;
 }
 
 .summary_tag .img_summary.num9 {
-    background-position: -260px -360px
+    background-position: -260px -360px;
 }
 
 .img_area .summary_tag {
