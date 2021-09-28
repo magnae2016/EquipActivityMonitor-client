@@ -156,6 +156,7 @@ body {
     position: absolute;
     top: -1px;
     right: 0;
+    cursor: pointer;
 }
 
 .co_site {
@@ -209,6 +210,7 @@ body {
     position: relative;
     z-index: 100;
     color: #444;
+    cursor: pointer;
 }
 
 .gnb_bg {
@@ -461,8 +463,8 @@ body {
     border: 1px solid #333949;
     background-color: transparent;
     font-size: 13px;
-    font-weight: bold;
-    line-height: 15px;
+    font-weight: 500;
+    line-height: 18px;
     letter-spacing: -0.5px;
     white-space: nowrap;
     text-align: left;
@@ -528,6 +530,7 @@ body {
     max-height: 122px;
     padding: 3px 5px 19px;
     text-align: center;
+    font-size: 0px;
 }
 
 .summary_tag .img_summary {
@@ -751,6 +754,10 @@ body {
     color: #999;
 }
 
+.list_type.basic .right {
+    text-align: right;
+}
+
 .list_type.item ul {
     height: 177px;
     padding-left: 1px;
@@ -849,6 +856,12 @@ body {
     display: block;
     overflow: hidden;
     line-height: 18px;
+}
+
+.list_type.basic > .list_ranking li:hover .txt_ranking,
+.list_type.basic li:not(.right) .list_ranking li:hover .txt_ranking {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .num_pctop {
